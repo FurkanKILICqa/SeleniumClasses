@@ -12,8 +12,8 @@ public class C02_ClassWork {
     public static void main(String[] args) throws InterruptedException {
 
 
-        //https://testcenter.techproeducation.com/index.php adresine gidin
-        // "Back to TechProEducation.com" butonunun kullanici erisimi icin etkin olup olmadigini test edin
+
+
 
 
         WebDriverManager.chromedriver().setup();
@@ -21,10 +21,13 @@ public class C02_ClassWork {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
+        //https://testcenter.techproeducation.com/index.php adresine gidin
         driver.get("https://testcenter.techproeducation.com/index.php");
 
         //btn btn-primary btn-lg // class isminde boşlu olduğu için sorun olabilir o yüzden kullanmadık
 
+
+        // "Back to TechProEducation.com" butonunun kullanici erisimi icin etkin olup olmadigini test edin
         WebElement backToButton = driver.findElement(By.partialLinkText("Back to TechProEducation.com"));
 
         System.out.println(backToButton.isEnabled() ? "Test Pass" : "Test Fail");
@@ -32,9 +35,7 @@ public class C02_ClassWork {
 
     // "Applications lists" basligini tagname ile locate ederek görünür  olup olmadigini test ediniz
 
-        //Applications lists
-
-        WebElement applicationsList = driver.findElement(By.tagName("h1"));
+        WebElement applicationsList = driver.findElement(By.tagName("h1"));//h1 bu sayfada sadece bir tane olduğu için h1 kullandık
 
         if (applicationsList.isDisplayed()){
 

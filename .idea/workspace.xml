@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0e5e52a-bce3-4bbd-bf1d-3813c1bf87f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C01_GetTagNameGetAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C02_ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C02_DriverMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C02_DriverMethodsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C01_Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements/C02_WebElementLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C02_WebElementLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C02_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C02_ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C02_ClassWork">
+  <component name="RunManager" selected="Application.C01_GetTagNameGetAttribute">
     <configuration name="C01_GetTagNameGetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04_WebElements_Xpath.C01_GetTagNameGetAttribute" />
       <module name="B189SeleniumDT" />
@@ -103,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_drivermethods.Homework" />
+    <configuration name="C03_Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_WebElements_Xpath.C03_Xpath" />
       <module name="B189SeleniumDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_drivermethods.*" />
+          <option name="PATTERN" value="day04_WebElements_Xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02_ClassWork" />
         <item itemvalue="Application.C01_GetTagNameGetAttribute" />
+        <item itemvalue="Application.C02_ClassWork" />
+        <item itemvalue="Application.C03_Xpath" />
         <item itemvalue="Application.C01_Locators" />
         <item itemvalue="Application.C02_WebElementLocators" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
