@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0e5e52a-bce3-4bbd-bf1d-3813c1bf87f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C01_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C02_WebElementLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C01_GetTagNameGetAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C02_ClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_driverilktest/C01_DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_driverilktest/C01_DriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C01_DriverMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C01_DriverMethodsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C02_DriverMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C02_DriverMethodsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C03_DriverMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C03_DriverMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C04_ManageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C04_ManageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C05_ImplicitlyWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/C05_ImplicitlyWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_drivermethods/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_drivermethods/Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C01_Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_WebElements/C02_WebElementLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_WebElements/C02_WebElementLocators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C02_WebElementLocators">
+  <component name="RunManager" selected="Application.C02_ClassWork">
+    <configuration name="C01_GetTagNameGetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_WebElements_Xpath.C01_GetTagNameGetAttribute" />
+      <module name="B189SeleniumDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_WebElements_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03_WebElements.C01_Locators" />
       <module name="B189SeleniumDT" />
@@ -71,38 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_WebElements_Xpath.C02_ClassWork" />
+      <module name="B189SeleniumDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_WebElements_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C02_WebElementLocators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03_WebElements.C02_WebElementLocators" />
       <module name="B189SeleniumDT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day03_WebElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_DriverMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_drivermethods.C03_DriverMethods" />
-      <module name="B189SeleniumDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02_drivermethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_ManageMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_drivermethods.C04_ManageMethods" />
-      <module name="B189SeleniumDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02_drivermethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02_WebElementLocators" />
+        <item itemvalue="Application.C02_ClassWork" />
+        <item itemvalue="Application.C01_GetTagNameGetAttribute" />
         <item itemvalue="Application.C01_Locators" />
+        <item itemvalue="Application.C02_WebElementLocators" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.C04_ManageMethods" />
-        <item itemvalue="Application.C03_DriverMethods" />
       </list>
     </recent_temporary>
   </component>

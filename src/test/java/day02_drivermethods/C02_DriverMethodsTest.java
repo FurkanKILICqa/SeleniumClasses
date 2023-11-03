@@ -66,6 +66,7 @@ public class C02_DriverMethodsTest {
             System.out.println("Test Fail");
         }
 
+        driver.getWindowHandle();
 
         //Sayfayi kapatin.
         driver.close();//En son driverin içine bulunduğu sayfayı kapatır

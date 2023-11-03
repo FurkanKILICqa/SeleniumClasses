@@ -67,14 +67,11 @@ public class C02_WebElementLocators {
 
 
         }
+
+
         driver.close();
 
-        /*
-        Eger birden fazla webelementi locate etmek istiyorsak findElements methodu kullaniriz.
-        Bu method bize elemanlari weblement olan bir list return eder
 
-        Bir webelemente ait yaziyi alabilmek icin getText() methodunu kullaniriz
-         */
 
 
 

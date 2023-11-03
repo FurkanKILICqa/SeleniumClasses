@@ -63,5 +63,20 @@ public class C01_Locators {
 
         driver.close();
 
+       // Bugun ogrendigimiz Selenium Interview Sorulari--02.11.2023
+       // 1--Seleniumdaki locatorlardan bahseder misiniz?
+       // 2--Siz hangi locatori kullanmayi tercih edersiniz,neden?
+       // 3--findElement() ve findElements() methodlari arasindaki farklar nelerdir?
+
+
+        //1--Seleniumdaki locatorlardan bahseder misiniz?
+
+
+
+
+
+
+
+
     }
 }
