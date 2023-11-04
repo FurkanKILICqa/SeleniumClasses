@@ -49,6 +49,9 @@ public class C03_Xpath {
         //web sayfasına gidin. https://www.amazon.com/
         driver.get("https://www.amazon.com/");
 
+        driver.navigate().refresh();
+        driver.navigate().refresh();
+
         //Arama kutusunda "city bike" aratin (arama kutusunu xpath ile locate edin)
         WebElement aramaKutusu = driver.findElement(By.xpath("//input[@id= 'twotabsearchtextbox']"));
 
@@ -61,7 +64,7 @@ public class C03_Xpath {
         //Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
         WebElement  aramaSonucu = driver.findElement(By.xpath("(//div[@class='sg-col-inner'])[1]"));
 
-        System.out.println(aramaSonucu.getText());//1-16 of 269 results for "city bike"
+        System.out.println(aramaSonucu.getText());//1-16 of 269 results for "city bike" //gettext demezsek referans numarasını verir
 
         //Sadece sonuc sayısını yazdırınız
         String [] sonucSayisi = aramaSonucu.getText().split(" ");
