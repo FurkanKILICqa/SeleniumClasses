@@ -36,25 +36,24 @@ public class C04_HomeWork {
 
 
 
-       //Arama cubuguna “Selenium” yazip aratin
+        // Arama cubuguna “Selenium” yazip aratin
         WebElement searchBox = driver.findElement(By.id("APjFqb"));
-
         searchBox.sendKeys("Selenium", Keys.ENTER);
 
 
-
-
-        //Bulunan sonuc sayisini yazdirin
-        WebElement searchResult = driver.findElement(By.xpath("(//div [@id='result-stats'])[1]"));
-
-        System.out.println(searchResult.getText());//Yaklaşık 228.000.000 sonuç bulundu (0,26 saniye)
-
+        // Bulunan sonuc sayisini yazdirin
+        WebElement serp = driver.findElement(By.xpath("//*[@id='result-stats']"));
+        String[] serpCount = serp.getText().replace(".","").split(" ");
+        System.out.println(serpCount[1]);
 
 
 
-       //sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
+        // sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
+        System.out.println(Integer.parseInt(serpCount[1]) > 10000000 ? "Test Passed" : "Test Failed");
 
 
+        // Sayfayi kapatin
+        driver.close();
 
 
 

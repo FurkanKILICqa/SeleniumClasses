@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0e5e52a-bce3-4bbd-bf1d-3813c1bf87f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C04_HomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_xpath_cssselector/C01_XpathClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_xpath_cssselector/C02_CssSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_xpath_cssselector/C03_ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_xpath_cssselector/C04_RelativeLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C03_Xpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C04_HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_WebElements_Xpath/C04_HomeWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C04_RelativeLocators">
+  <component name="RunManager" selected="Application.C04_HomeWork">
     <configuration name="C01_XpathClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05_xpath_cssselector.C01_XpathClassWork" />
       <module name="B189SeleniumDT" />
@@ -118,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C04_HomeWork" />
         <item itemvalue="Application.C04_RelativeLocators" />
         <item itemvalue="Application.C03_ClassWork" />
         <item itemvalue="Application.C01_XpathClassWork" />
         <item itemvalue="Application.C03_Xpath" />
-        <item itemvalue="Application.C04_HomeWork" />
       </list>
     </recent_temporary>
   </component>
